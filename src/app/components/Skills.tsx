@@ -10,20 +10,6 @@ import Description from './Description';
 
 const Skills = () => {
 
-    const fadeInAnimationVariants = {
-        initial: {
-          opacity: 0,
-          y: 100,
-        },
-        animate: (index: number) => ({
-          opacity: 1,
-          y: 0,
-          transition: {
-            delay: 0.05 * index,
-          },
-        }),
-      };
-
     const {ref} = useSectionInView("Skills", 0.4);
 
     const [selectedProject, setSelectedProject] = useState<number | null>(null)

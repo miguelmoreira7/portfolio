@@ -12,9 +12,6 @@ type DescriptionProps = {
 
 const Description = ({data, selectedProject, index} : DescriptionProps) => {
 
-    const crop = (string: string, maxLength: number) => {
-        return string.substring(0, maxLength);
-    }
 
     const {title, description} = data;
 

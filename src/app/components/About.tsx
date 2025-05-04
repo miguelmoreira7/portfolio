@@ -1,21 +1,11 @@
 "use client";
-import { motion, useScroll } from "framer-motion"
+import { motion } from "framer-motion"
 import { useSectionInView } from "../lib/hooks";
-import { useEffect, useRef, useState } from "react";
 import AnimatedText from "./AnimatedText";
 
 const About = () => {
 
   const { ref } = useSectionInView('About', 0.4);
-
-  const lines = [
-    <>
-      I’m a <span className="text-[#ec4e39]">selectively skilled</span> product
-    </>,
-    <>designer with strong focus on</>,
-    <>producing high quality &</>,
-    <>impactful digital experience.</>,
-  ];
 
   return (
     <motion.section
