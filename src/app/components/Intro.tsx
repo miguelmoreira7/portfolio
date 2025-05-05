@@ -22,7 +22,7 @@ const Intro = () => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5}}>
         <p
-          className="dark:text-[#b7ab98] mb-10 mt-4 font-extrabold uppercase text-[8vw] leading-[7.5vw] text-center"
+          className="dark:text-[#b7ab98] mb-10 mt-4 font-extrabold uppercase text-[18vw] leading-[16vw] sm:text-[13vw] sm:leading-[12vw] md:text-[12vw] md:leading-[11vw] lg:text-[8vw] lg:leading-[7.5vw] text-center"
         >
           Getting <br />
           Things <br />

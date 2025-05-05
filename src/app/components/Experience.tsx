@@ -32,6 +32,22 @@ const Experience = () => {
         },
       }),
     };
+
+    const slideVariantMobile = {
+      hidden: (index: number) => ({
+        opacity: 0,
+        y: 100,
+      }),
+      visible: (index: number) => ({
+        opacity: 1,
+        y: 0,
+        transition: {
+          duration: 0.8,
+          delay: index * 0.2,
+          ease: "easeOut",
+        },
+      }),
+    };
     
     
     
@@ -47,7 +63,7 @@ const Experience = () => {
               whileInView="visible"
               viewport={{ once: false, amount: 0.3 }}
               custom={index}
-              variants={slideVariant}
+              variants={window.innerWidth > 640 ? slideVariant : slideVariantMobile}
             >
               <VerticalTimelineElement
                 contentStyle={{
