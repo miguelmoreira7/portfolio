@@ -34,7 +34,7 @@ const Experience = () => {
     };
 
     const slideVariantMobile = {
-      hidden: (index: number) => ({
+      hidden: () => ({
         opacity: 0,
         y: 100,
       }),
