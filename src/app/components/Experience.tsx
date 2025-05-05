@@ -18,22 +18,6 @@ const Experience = () => {
     const { theme } = useTheme();
 
     const slideVariant = {
-      hidden: (index: number) => ({
-        opacity: 0,
-        x: index % 2 === 0 ? -100 : 100,
-      }),
-      visible: (index: number) => ({
-        opacity: 1,
-        x: 0,
-        transition: {
-          duration: 0.8,
-          delay: index * 0.2,
-          ease: "easeOut",
-        },
-      }),
-    };
-
-    const slideVariantMobile = {
       hidden: () => ({
         opacity: 0,
         y: 100,
@@ -50,7 +34,6 @@ const Experience = () => {
     };
     
     
-    
   return (
     <section id="experience" ref={ref} className="mb-28 sm:mb-40">
       <SectionHeader>My experience</SectionHeader>
@@ -63,7 +46,7 @@ const Experience = () => {
               whileInView="visible"
               viewport={{ once: false, amount: 0.3 }}
               custom={index}
-              variants={window.innerWidth > 640 ? slideVariant : slideVariantMobile}
+              variants={slideVariant}
             >
               <VerticalTimelineElement
                 contentStyle={{
