@@ -42,7 +42,7 @@ const Intro = () => {
 
           <a
             className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-[#ec4e39] dark:hover:text-black active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 font-bold dark:text-[#b7ab98]"
-            href="./CV.pdf"
+            href="./CV - ENGLISH.pdf"
             download
           >
             Download CV{" "}

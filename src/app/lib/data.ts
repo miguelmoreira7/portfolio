@@ -31,36 +31,36 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Full-Stack Developer - Trads Corretora",
+    location: "João Pessoa, PB",
+    description:
+    "Front-end development for blogs, landing pages, and other web applications. Development of APIs and backend services using Node.js and N8N for process automation, from lead generation to final sales, optimizing workflows and increasing sales volume. Creation of automation workflows in N8N for content generation, promotion, event scheduling, transcriptions, sales analysis, suggestions, and more.",
+    icon: React.createElement(FaReact),
+    date: "Present",
+  },
+  {
+    title: "Tutor in Web Programming",
+    location: "João Pessoa, PB",
+    description:
+    "Guided students through the process of building web applications using Angular and TypeScript for the frontend. Developed REST APIs and backend services using Spring Boot. Focused on integrating Angular with REST APIs to create fully functional web applications.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
+  },
+  {
+    title: "Internet Systems",
+    location: "João Pessoa, PB",
+    description:
+    "I started the Internet Systems course at IFPB, where I gained extensive knowledge in web development, databases, artificial intelligence, and various other areas.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2022 - 2025",
+  },
+  {
     title: "Denny Kerson Architecture and Construction",
     location: "Solânea, PB",
     description:
       "I started as an apprentice at the age of 14. I wanted to learn more about the field and be able to work, and I eventually became a CAD Drafter and 3D modeler.",
     icon: React.createElement(CgWorkAlt),
     date: "2014 - 2022",
-  },
-  {
-    title: "Internet Systems",
-    location: "João Pessoa, PB",
-    description:
-      "I started the Internet Systems course at IFPB, where I gained extensive knowledge in web development, databases, artificial intelligence, and various other areas.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2022 - 2025",
-  },
-  {
-    title: "Tutor in Web Programming",
-    location: "João Pessoa, PB",
-    description:
-      "Guided students through the process of building web applications using Angular and TypeScript for the frontend. Developed REST APIs and backend services using Spring Boot. Focused on integrating Angular with REST APIs to create fully functional web applications.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "João Pessoa, PB",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, SQL, and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "Present",
   },
 ] as const;
 
@@ -119,7 +119,7 @@ export const skillsData = [
   },
   {
     title: "back-end",
-    description: "Java, Spring Boot, PHP, Laravel, Python",
+    description: "Java, Spring Boot, TypeScript, Node.js, PHP, Laravel, Python",
     speed: 0.6,
   },
   {
@@ -129,13 +129,13 @@ export const skillsData = [
   },
   {
     title: "databases",
-    description: "MongoDB, MySQL",
+    description: "MongoDB, MySQL, PostgreSQL",
     speed: 0.75,
   },
   {
-    title: "version tools",
-    description: "Git, GitHub",
-    speed: 0.7,
+    title: "tools",
+    description: "n8n, postman, docker, Git, GitHub",
+    speed: 0.9,
   },
   {
     title: "other skills",
